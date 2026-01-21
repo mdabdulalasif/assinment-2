@@ -367,3 +367,77 @@ header {
 .iframe{
   border-radius: 20px 20px 0px 0px;
 }
+
+/*---------------contact section start --------------*/
+.contact-section{
+  background-color: #1A0B2E;
+  margin: 0 auto;
+  padding-bottom: 120px;
+}
+
+.contact-section h1{
+  text-align: center;
+  padding: 40px;
+  color: white;
+  font-size: 48px;
+
+  
+}
+
+.contact-detals{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  align-items: center;
+  background-color: #351165;
+  border-radius: 20px;
+   
+}
+
+.contact-detals h2{
+  font-size: 32px;
+  color: white;
+  padding: 10px 10px 10px 0px;
+}
+
+.contact-detals .text{
+
+}
+.contact-detals p{
+  color: #533C72;
+  font-size: 16px;
+  padding: 10px 0px;
+}
+.img-icon img{
+   width: 16px;
+   height: 16px;
+}
+
+.img-icons{
+  
+  gap: 4px;
+  position:relative;
+  padding: 10px 0px;
+  
+
+ 
+}
+
+.img-icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding:10px;
+  border: 1px solid #533C72;
+  align-items: center;
+  justify-content: center;
+}
+/*---------------contact section close --------------*/
+
+/*------------footer section start-------------*/
+ fo
+
+
+/*------------footer section close-------------*/
