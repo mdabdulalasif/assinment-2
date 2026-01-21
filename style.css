@@ -311,18 +311,59 @@ header {
 
 
  
- 
-
-
-
-
-
-
-
-
-
-
-
 
  
 /*---------------service section--------- */
+
+
+.card-sections{
+    background-color: #1A0B2E;
+    padding-bottom:60px;
+
+}
+
+.card-section-h1{
+    padding-top:120px;
+    padding-bottom:20px;
+    text-align: center;
+    font-size: 48px;
+    color: white;
+}
+
+.cards{
+  width:1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card{
+  width: 380px;
+  height: 440px;
+  background-color:#351165;
+  border-radius: 20px;
+  margin: 10px;
+ 
+}
+
+.card-h3{
+  font-size: 24px;
+  padding: 24px 24px 0px 24px;
+  color: white;
+}
+
+.card-p{
+  font-size: 16px;
+  padding: 24px 24px 0px 24px ;
+  color: white;
+}
+
+.card-h4{
+  padding:12px 24px 24px 24px;
+  color: #00ff88;
+}
+
+.iframe{
+  border-radius: 20px 20px 0px 0px;
+}
