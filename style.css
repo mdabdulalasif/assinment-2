@@ -166,6 +166,11 @@ header {
     position: relative;
     
 }
+
+.card-section{
+  max-width: 1200px;
+  margin: 0 auto;
+}
 .service-section .header{
     
     text-align: center;
@@ -313,9 +318,9 @@ header {
  
 
  
-/*---------------service section--------- */
+/*---------------service section close--------- */
 
-
+/*---------------card section start-------------- */
 .card-sections{
     background-color: #1A0B2E;
     padding-bottom:60px;
@@ -368,11 +373,18 @@ header {
   border-radius: 20px 20px 0px 0px;
 }
 
+/*---------------card section close-------------- */
+
 /*---------------contact section start --------------*/
+
 .contact-section{
   background-color: #1A0B2E;
   margin: 0 auto;
   padding-bottom: 120px;
+ 
+  
+
+  
 }
 
 .contact-section h1{
@@ -387,12 +399,14 @@ header {
 .contact-detals{
   
   margin: 0 auto;
+  max-width: 1200px;
   display: flex;
   gap: 20px;
   padding: 40px;
   align-items: center;
   background-color: #351165;
   border-radius: 20px;
+
    
 }
 
