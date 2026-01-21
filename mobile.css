@@ -62,14 +62,7 @@ body {
 }
 
  
-
-  /* i will try it to used in gradient color to uses this 
-   .header-container span used linearGradient color code will copy
-    
-   https://blog.colorffy.com/posts/gradient-text-using-css- in this web site */
-
-
-/* ---------------home section ---------------*/
+ 
 
 .home-section {
   background: url(img/hero-bg.png);
@@ -210,32 +203,37 @@ body {
   height: 1121px;
   background-color: #230e3d;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
 .card-section {
-  max-width: 1200px;
+width: 100%;
   margin: 0 auto;
 }
 .service-section .header {
   text-align: center;
   color: white;
   padding-top: 20px;
+  flex-wrap: wrap;
 }
 
 .service-section p {
   font-size: 16px;
 }
 .service-section .all-section {
-  height: 783px;
+   
   width: 75%;
-  max-width: 1200px;
+  
 
   margin: 100px auto;
   position: relative;
 }
 
 .services-1 {
-  max-width: 380px;
+  
   width: 31.5%;
   height: 480px;
   background-color: #351165;
@@ -252,7 +250,7 @@ body {
 }
 
 .services-2 {
-  max-width: 790px;
+ 
   width: 65.57%;
   height: 225px;
   position: absolute;
@@ -270,7 +268,7 @@ body {
 }
 
 .services-3 {
-  max-width: 990px;
+ 
   width: 65.57%;
   height: 225px;
   position: absolute;
@@ -289,7 +287,7 @@ body {
 }
 
 .services-4 {
-  max-width: 790px;
+ 
   width: 65.83%;
   height: 273px;
   position: absolute;
@@ -338,6 +336,8 @@ body {
 .card-sections {
   background-color: #1a0b2e;
   padding-bottom: 60px;
+
+  
 }
 
 .card-section-h1 {
@@ -349,9 +349,11 @@ body {
 }
 
 .cards {
-  width: 1200px;
+  
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
@@ -404,8 +406,9 @@ body {
 
 .contact-detals {
   margin: 0 auto;
-  max-width: 1200px;
+  
   display: flex;
+  flex-direction: column;
   gap: 20px;
   padding: 40px;
   align-items: center;
@@ -454,6 +457,7 @@ footer {
   margin: 0 auto;
   background-image: url(img/footer-bg.png);
   background-position: center;
+  background-size:;
 }
 
 .footer-all{
@@ -478,7 +482,8 @@ footer .TechWave-text{
 .footer-text{
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 .footer-text a{ 
    color: white;
@@ -489,6 +494,7 @@ footer .TechWave-text{
    gap:5px;
    text-align: center;
    align-items: center;
+
    
 }
 .footer-text img{
